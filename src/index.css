@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.form-group {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.form-group > label,
+.form-group > label {
+  display: block;
+}
+
+.form-group > label {
+  margin-bottom: 0.25rem;
+}

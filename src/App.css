@@ -1,0 +1,33 @@
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #837d9b;
+  padding: 3rem;
+}
+
+.App > .container {
+  display: flex;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.output {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  width: 50%;
+}
+
+.output > .buttons {
+  margin-top: 0.5rem;
+}
+
+.output > .buttons > button {
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.25rem;
+  font-size: 1rem;
+}
