@@ -159,7 +159,7 @@ class App extends Component {
   clearItem = () => {
     let {items, selectedTile: {x, y}} = this.state;
 
-    if (items === undefined || items.length === 0) {
+    if (!items || items.length === 0) {
       return;
     }
 
